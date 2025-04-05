@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    volumes:
+      - ./src:/app/src
+    depends_on:
+      - h2
+    networks:
+      - moneytrack-network
+
+  h2:
+    image: oscarfonts/h2
+    ports:
+      - "1521:1521"
+      - "81:81"
+    environment:
+      - H2_OPTIONS=-ifNotExists
+    volumes:
+      - h2-data:/opt/h2-data
+    networks:
+      - moneytrack-network
+
+volumes:
+  h2-data:
+
+networks:
+  moneytrack-network:
+    driver: bridge 

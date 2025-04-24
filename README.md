@@ -77,7 +77,7 @@ POST /api/transacoes
 GET /api/transacoes/periodo?inicio=2024-03-01T00:00:00&fim=2024-03-31T23:59:59
 ```
 
-### Calcular Saldo
+## Calcular Saldo
 ```
 GET /api/transacoes/saldo/periodo?inicio=2024-03-01T00:00:00&fim=2024-03-31T23:59:59
 ``` 

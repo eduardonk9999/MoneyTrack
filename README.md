@@ -49,7 +49,7 @@ A aplicação estará disponível em `http://localhost:8080`
 - `GET /api/transacoes/tipo/{tipo}/periodo` - Listar transações por tipo e período
 - `GET /api/transacoes/saldo/periodo` - Calcular saldo por período
 
-## Exemplos de Uso
+### Exemplos de Uso
 
 ### Criar Categoria
 ```json

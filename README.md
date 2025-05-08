@@ -1,6 +1,6 @@
 # MoneyTrack - API de Controle de Gastos Pessoais
 
-API desenvolvida em Spring Boot para controle de gastos pessoais, permitindo registrar despesas e receitas, categorizar transações e gerar relatórios.
+API desenvolvida em Spring Boot para controle de gastos pessoais, permitindo registrar despesas e receitas, categorizar transações e gerar relatórios..
 
 ## Funcionalidades
 

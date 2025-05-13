@@ -68,7 +68,7 @@ POST /api/transacoes
     "valor": 5000.00,
     "data": "2024-03-15T10:00:00",
     "categoriaId": 1,
-    "tipo": "RECEITA"
+    "tipo": "RECEITA",
 }
 ```
 
